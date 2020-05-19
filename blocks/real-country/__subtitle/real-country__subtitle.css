@@ -2,8 +2,7 @@
     font-size: 30px;
     line-height: 1.2;
     font-weight: normal;
-    min-width: 640px;
-    max-width: 50%;
+    width: 640px;
     text-align: center;
     margin:0 0 64px;
 }

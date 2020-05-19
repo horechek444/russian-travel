@@ -1,0 +1,7 @@
+.reason__cover {
+    display: flex;
+    flex-direction: column;
+    min-width: 1132px;
+    padding: 92px 0 0 148px;
+    margin: 0 auto;
+}

@@ -1,6 +1,5 @@
 .real-country__image {
-    position: relative;
-    min-height: 615px;
-    width: 100%;
+    height: 615px;
+    width: 984px;
     margin: 0 auto 8px;
 }

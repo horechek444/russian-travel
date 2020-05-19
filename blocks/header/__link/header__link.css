@@ -8,7 +8,3 @@
     line-height: 1.17; /* в макете 117% или 28px, делаю дробью, т к так рекомендовано во вступлении к работе */
     text-decoration: none;
 }
-
-.header__link:first-of-type {
-    margin-right: 18px;
-}
