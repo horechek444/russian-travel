@@ -1,6 +1,6 @@
 .root {
     min-width: 1280px;
-    margin: 0 auto;
+    margin: auto;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
