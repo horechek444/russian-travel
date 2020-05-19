@@ -1,0 +1,10 @@
+.places__url {
+    grid-area: url;
+    justify-content: space-between;
+    align-content: space-between;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}

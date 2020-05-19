@@ -1,0 +1,6 @@
+.places__text {
+    grid-area: paragraph;
+    font-size: 18px;
+    line-height: 1.67;
+    font-weight: normal;
+}

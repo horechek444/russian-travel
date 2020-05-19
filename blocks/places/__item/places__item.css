@@ -1,0 +1,12 @@
+.places__item {
+    display: grid;
+    grid-template-columns: 460px, 485px;
+    grid-template-rows: 152px 460px;
+    grid-gap: 48px 40px;
+    grid-template-areas: 
+    'title url'
+    '. link'
+    'image paragraph'
+    '. paragraph';
+    padding: 0 148px;
+}
