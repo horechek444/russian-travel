@@ -1,0 +1,10 @@
+@import url(./__logo/header__logo.css);
+@import url(./__lang/header__lang.css);
+@import url(./__lang/_active/header__lang_active.css);
+
+.header {
+    display: flex;
+    background-color: #2A2C2F;
+    margin: 0 auto;
+    padding: 28px 48px 0;
+}
