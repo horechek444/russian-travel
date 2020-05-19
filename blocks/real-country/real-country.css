@@ -1,0 +1,13 @@
+@import url(./__title/real-country__title.css);
+@import url(./__subtitle/real-country__subtitle.css);
+@import url(./__image/real-country__image.css);
+@import url(./__caption/real-country__caption.css);
+@import url(./__cover/real-country__cover.css);
+
+.real-country {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 148px 0;
+}

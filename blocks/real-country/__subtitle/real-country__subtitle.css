@@ -1,0 +1,9 @@
+.real-country__subtitle {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: normal;
+    min-width: 640px;
+    max-width: 50%;
+    text-align: center;
+    margin:0 0 64px;
+}

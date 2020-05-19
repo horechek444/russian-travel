@@ -1,0 +1,14 @@
+.header__link {
+    display: block;
+    align-self: flex-end;
+    color: #ffffff;
+    width: 30px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 1.17; /* в макете 117% или 28px, делаю дробью, т к так рекомендовано во вступлении к работе */
+    text-decoration: none;
+}
+
+.header__link:first-of-type {
+    margin-right: 18px;
+}
