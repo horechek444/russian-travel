@@ -5,8 +5,7 @@
     grid-gap: 48px 40px;
     grid-template-areas: 
     'title url'
-    '. link'
     'image paragraph'
-    '. paragraph';
+    'image paragraph';
     padding: 0 148px;
 }

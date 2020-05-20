@@ -1,8 +1,10 @@
 .places__title {
     grid-area: title;
-    align-content: flex-start;
+    align-self: flex-end;
     width: 460px;
     font-size: 72px;
     line-height: 1.06;
     font-weight: 900;
+    margin: 0;
+    padding: 0;
 }

@@ -1,0 +1,4 @@
+.places__url-link {
+    grid-area: url;
+    align-self: flex-end;
+}

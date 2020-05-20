@@ -1,0 +1,22 @@
+.places__paragraph {
+    grid-area: paragraph;
+    font-size: 18px;
+    line-height: 1.67;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    /* width: 484px; */
+}
+
+.places__paragraph:nth-of-type(1) {
+    margin-bottom: 24px;
+}
+
+.places__paragraph:nth-of-type(2) {
+    align-self: center;
+    margin-bottom: 0;
+}
+
+.places__paragraph:only-of-type {
+    margin-bottom: 0;
+}
