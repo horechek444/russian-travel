@@ -1,0 +1,10 @@
+.train-traveling__image {
+    width: 1184px;
+    height: 740px;
+    background: #2A2C2F;
+    opacity: 0.8;
+}
+
+.train-traveling__link:hover .train-traveling__image {
+    opacity: 0.3;
+}

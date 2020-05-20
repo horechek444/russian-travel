@@ -7,7 +7,6 @@
 @import url(./__text/places__text.css);
 @import url(./__paragraph/places__paragraph.css);
 @import url(./__url-link/places__url-link.css);
-@import url();
 
 .places {
     display: flex;

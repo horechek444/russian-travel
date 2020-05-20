@@ -1,0 +1,10 @@
+@import url(./__link/train-traveling__link.css);
+@import url(./__title/train-traveling__title.css);
+@import url(./__image/train-traveling__image.css);
+@import url(./__subtitle/train-traveling__subtitle.css);
+
+.train-traveling {
+    display: flex;
+    margin: 0 auto;
+    padding: 92px 0 0;
+}

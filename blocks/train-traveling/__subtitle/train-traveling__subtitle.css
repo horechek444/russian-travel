@@ -1,0 +1,12 @@
+.train-traveling__subtitle {
+    position: absolute;
+    top: calc(245px + 152px + 32px);
+    left: calc(312px + 100px);
+    width: 360px;
+    font-size: 18px;
+    line-height: 1.22;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
