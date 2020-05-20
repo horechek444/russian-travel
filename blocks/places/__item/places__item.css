@@ -6,14 +6,30 @@
     grid-template-areas: 
     'title url'
     'image paragraph';
-    padding: 0 148px;
+    padding: 0;
+    margin: 0 auto;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .places__item {
         grid-template-columns: 440px, 456px;
-        grid-template-rows: min-content 440px;
+        grid-template-rows: min-content min-content;
         grid-gap: 48px 32px;
-        padding: 0 48px;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .places__item {
+        grid-template-columns: 340px, 352px;
+        grid-template-rows: max-content max-content;
+        grid-gap: 48px 28px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .places__item {
+        grid-template-columns: 320px;
+        grid-template-rows: min-content;
+        grid-gap: 32px;
     }
 }

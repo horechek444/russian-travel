@@ -2,3 +2,9 @@
     grid-area: url;
     align-self: flex-end;
 }
+
+@media all and (max-width: 767px) {
+    .places__url-link {
+        display: none;
+    }
+}

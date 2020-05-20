@@ -13,7 +13,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .train-traveling__title {
         top: 195px;
     }

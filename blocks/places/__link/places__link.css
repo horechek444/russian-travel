@@ -8,3 +8,9 @@
 .places__link:hover {
     opacity: 0.8;
 }
+
+@media all and (max-width: 1023px) {
+    .places__link:hover {
+        opacity: 1;
+    }
+}

@@ -8,3 +8,15 @@
     display: flex;
     padding-top: 92px;
 }
+
+@media all and (max-width: 1023px) {
+    .pictures {
+        padding-top: 88px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .pictures {
+        padding-top: 64px;
+    }
+}

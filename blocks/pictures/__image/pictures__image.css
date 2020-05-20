@@ -4,9 +4,23 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .pictures__image {
-        min-width: 300px;
+        max-width: 300px;
         min-height: 225px;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .pictures__image {
+        max-width: 352px;
+        min-height: 264px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .pictures__image {
+        max-width: 288px;
+        min-height: 216px;
     }
 }
