@@ -1,6 +1,11 @@
 .pictures__item {
     margin: 0;
     padding: 0;
-    height: 213px;
-    box-sizing: border-box;
+    max-height: 213px;
+}
+
+@media screen and (max-width: 1280px) {
+    .pictures__item {
+        min-height: 225px;
+    }
 }

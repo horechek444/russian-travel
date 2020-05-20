@@ -2,6 +2,6 @@
     font-size: 54px;
     line-height: 1.07;
     font-weight: 900;
-    width: 690px;
+    min-width: 690px;
     margin: 0 0 40px;
 }

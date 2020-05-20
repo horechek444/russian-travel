@@ -8,3 +8,12 @@
     'image paragraph';
     padding: 0 148px;
 }
+
+@media screen and (max-width: 1280px) {
+    .places__item {
+        grid-template-columns: 440px, 456px;
+        grid-template-rows: min-content 440px;
+        grid-gap: 48px 32px;
+        padding: 0 48px;
+    }
+}

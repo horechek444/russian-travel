@@ -1,10 +1,32 @@
 .train-traveling__image {
-    width: 1184px;
-    height: 740px;
+    max-width: 1184px;
+    min-height: 740px;
     background: #2A2C2F;
     opacity: 0.8;
+    object-fit: cover;
 }
 
 .train-traveling__link:hover .train-traveling__image {
     opacity: 0.3;
+}
+
+/* @media screen and (max-width: 1280px) {
+    .train-traveling__image {
+        width: 100%;
+        min-height: 640px;
+    }
+} */
+
+@media screen and (max-width: 1152px) {
+    .train-traveling__image {
+        min-height: 690px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .train-traveling__image {
+        min-height: 640px;
+        width: 100%;
+    }
 }

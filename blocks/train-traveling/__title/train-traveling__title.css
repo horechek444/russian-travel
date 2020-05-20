@@ -1,12 +1,20 @@
 .train-traveling__title {
     position: absolute;
     top: 245px;
-    left: 312px;
-    width: 560px;
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+    max-width: 560px;
     font-size: 72px;
     line-height: 1.06;
     font-weight: 900;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .train-traveling__title {
+        top: 195px;
+    }
 }

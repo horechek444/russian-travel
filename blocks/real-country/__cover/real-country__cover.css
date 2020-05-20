@@ -1,4 +1,28 @@
 .real-country__cover {
-    width: 984px;
+    max-width: 984px;
     margin: 0;
 }
+
+@media screen and (max-width: 1152px) {
+    .real-country__cover {
+        max-width: 956px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .real-country__cover {
+        max-width: 928px;
+    }
+}
+
+/* @media screen and (min-width: 1152px) {
+    .real-country__cover {
+        max-width: 956px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .real-country__cover {
+        max-width: 928px;
+    }
+} */

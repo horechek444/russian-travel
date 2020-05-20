@@ -10,3 +10,9 @@
     align-items: center;
     padding: 56px 148px 0;
 }
+
+@media screen and (max-width: 1280px) {
+    .real-country {
+        padding: 48px 48px 0;
+    }
+}

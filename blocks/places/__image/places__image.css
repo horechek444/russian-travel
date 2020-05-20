@@ -2,4 +2,12 @@
     grid-area: image;
     width: 460px;
     height: 460px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1280px) {
+    .places__image {
+        width: 440px;
+        height: 440px;
+    }
 }

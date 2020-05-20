@@ -1,5 +1,35 @@
 .real-country__image {
-    height: 615px;
-    width: 984px;
+    max-height: 615px;
+    max-width: 984px;
     margin: 0 auto 8px;
+    object-fit: cover;
 }
+
+@media screen and (max-width: 1152px) {
+    .real-country__image {
+        max-height: 597px;
+        max-width: 956px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .real-country__image {
+        max-height: 580px;
+        max-width: 928px;
+    }
+}
+
+/* @media screen and (min-width: 1152px) {
+    .real-country__image {
+        max-height: 597px;
+        max-width: 956px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .real-country__image {
+        max-height: 580px;
+        max-width: 928px;
+    }
+} */
+
