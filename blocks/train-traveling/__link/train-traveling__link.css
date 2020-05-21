@@ -1,7 +1,6 @@
 .train-traveling__link {
-    position: relative;
     color: #ffffff;
     text-decoration: none;
     margin: 0 auto;
-    max-height: 640px;
+    max-width: 1184px;
 }

@@ -1,12 +1,41 @@
 .train-traveling__image {
-    max-width: 1184px;
+    /* display: flex;
+    flex-direction: column; */
+    max-width: 100%;
+    width: 100%;
+    min-height: 740px;
+    background-image: url('../../../images/cover-trains.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    /* background: #2A2C2F;
+    opacity: 0.8; */
+}
+
+@media all and (max-width: 1152px) {
+    .train-traveling__image {
+        min-height: 690px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 1025px) {
+    .train-traveling__image {
+        max-height: 640px;
+    }
+}
+
+/* .train-traveling__image {
+    max-width: 100%;
+    width: 100%;
     min-height: 740px;
     background: #2A2C2F;
     opacity: 0.8;
     object-fit: cover;
-}
+} */
 
-.train-traveling__link:hover .train-traveling__image {
+/* .train-traveling__link:hover .train-traveling__image {
     opacity: 0.3;
 }
 
@@ -33,4 +62,4 @@
     .train-traveling__image {
         min-height: 200px;
     }
-}
+} */
