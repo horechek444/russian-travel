@@ -2,7 +2,7 @@
     min-height: 615px;
     max-width: 984px;
     margin: 0 auto 8px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 @media screen and (max-width: 1152px) {

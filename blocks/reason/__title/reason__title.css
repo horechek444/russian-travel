@@ -6,18 +6,10 @@
     margin: 0 0 40px;
 }
 
-@media all and (max-width: 1023px) {
-    .reason__cover {
-        min-width: 720px;
-        padding: 88px 0 0;
-    }
-}
-
 @media all and (max-width: 767px) {
     .reason__title {
         font-size: 32px;
         line-height: 1.09;
-        font-weight: 900;
         min-width: 288px;
     }
 }

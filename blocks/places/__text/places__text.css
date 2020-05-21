@@ -1,21 +1,22 @@
 .places__text {
-    width: 484px;
+    max-width: 484px;
 }
 
 @media screen and (max-width: 1279px) {
     .places__text {
-        width: 456px;
+        max-width: 456px;
     }
 }
 
 @media all and (max-width: 1023px) {
     .places__text {
-        width: 352px;
+        max-width: 352px;
     }
 }
 
 @media all and (max-width: 767px) {
     .places__text {
-        width: 288px;
+        max-width: 288px;
+        margin: 0 16px;
     }
 }

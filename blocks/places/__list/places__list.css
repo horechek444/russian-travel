@@ -16,5 +16,7 @@
 @media all and (max-width: 767px) {
     .places__list {
         grid-gap: 48px;
+        /* display: flex;
+        flex-direction: column; */
     }
 }

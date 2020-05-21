@@ -6,5 +6,6 @@
 @media all and (max-width: 767px) {
     .places__url-link {
         display: none;
+        overflow: hidden;
     }
 }

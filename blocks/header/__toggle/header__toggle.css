@@ -7,3 +7,12 @@
     line-height: 1.17;
     cursor: pointer;
 }
+
+@media all and (max-width: 767px) {
+    .header__toggle {
+        width: 22px;
+        height: 24px;
+        font-size: 18px;
+        line-height: 1.33;
+    }
+}

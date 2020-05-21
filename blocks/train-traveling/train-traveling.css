@@ -8,3 +8,15 @@
     margin: 0 auto;
     padding: 92px 0 0;
 }
+
+@media all and (max-width: 1023px) {
+    .train-traveling {
+        padding: 88px 0 0;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .train-traveling {
+        padding: 64px 0 0;
+    }
+}

@@ -25,5 +25,6 @@
     .reason__cover {
         min-width: 288px;
         padding: 64px 0 0;
+        margin: 0 16px;
     }
 }

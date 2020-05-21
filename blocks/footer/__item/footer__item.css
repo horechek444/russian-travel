@@ -1,3 +1,9 @@
 .footer__item:not(:last-of-type) {
     margin-right: 18px;
 }
+
+@media all and (max-width: 767px) {
+    .footer__item:not(:last-of-type) {
+        margin: 0 0 32px;
+    }
+}

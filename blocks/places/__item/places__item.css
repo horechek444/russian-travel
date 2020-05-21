@@ -21,15 +21,22 @@
 @media all and (max-width: 1023px) {
     .places__item {
         grid-template-columns: 340px, 352px;
-        grid-template-rows: max-content max-content;
+        grid-template-rows: min-content max-content;
         grid-gap: 48px 28px;
     }
 }
 
 @media all and (max-width: 767px) {
     .places__item {
-        grid-template-columns: 320px;
-        grid-template-rows: min-content;
-        grid-gap: 32px;
+        grid-template-areas: 
+        'title'
+        'image'
+        'paragraph';
+        grid-template-columns: minmax(320px, 1fr);
+        grid-template-rows: minmax(min-content, 1fr);
+        grid-row-gap: 32px;
+        grid-column-gap: 0;
+        margin: 0;
+        max-width: 320px;
     }
 }
