@@ -2,8 +2,10 @@
 @import url(./__title/train-traveling__title.css);
 @import url(./__image/train-traveling__image.css);
 @import url(./__subtitle/train-traveling__subtitle.css);
+@import url(./__cover/train-traveling__cover.css);
 
 .train-traveling {
+    /* position: relative; */
     display: flex;
     margin: 0 auto;
     padding: 92px 0 0;

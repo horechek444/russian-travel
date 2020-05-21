@@ -1,0 +1,31 @@
+.train-traveling__cover {
+    position: absolute;
+    top: 245px;
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .train-traveling__cover {
+        top: 195px;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .train-traveling__cover {
+        top: 115px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .train-traveling__cover {
+        top: 17%;
+        /* top: calc((100% - 69px)/2); */
+        max-width: 288px;
+    }
+}

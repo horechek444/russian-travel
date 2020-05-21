@@ -1,35 +1,15 @@
 .train-traveling__title {
-    position: absolute;
-    top: 245px;
-    left: 0; 
-    bottom: 0; 
-    right: 0;
-    max-width: 560px;
     font-size: 72px;
     line-height: 1.06;
     font-weight: 900;
     text-align: center;
-    margin: 0 auto;
-    padding: 0;
-}
-
-@media screen and (max-width: 1279px) {
-    .train-traveling__title {
-        top: 195px;
-    }
-}
-
-@media all and (max-width: 1023px) {
-    .train-traveling__title {
-        top: 115px;
-    }
+    margin: 0 auto 16px;
 }
 
 @media all and (max-width: 767px) {
     .train-traveling__title {
-        top: 33px;
         font-size: 32px;
         line-height: 1.09;
-        max-width: 79%;
+        width: 255px;
     }
 }

@@ -1,37 +1,14 @@
 .train-traveling__subtitle {
-    position: absolute;
-    top: 429px;
-    left: 0;
-    bottom: 0; 
-    right: 0;
-    /* width: 50%;
-    height: 50%; */
-    max-width: 360px;
     font-size: 18px;
     line-height: 1.22;
     font-weight: normal;
     text-align: center;
     margin: 0 auto;
-    padding: 0;
-}
-
-@media screen and (max-width: 1279px) {
-    .train-traveling__subtitle {
-        top: 379px;
-    }
-}
-
-@media all and (max-width: 1023px) {
-    .train-traveling__subtitle {
-        top: 299px;
-    }
 }
 
 @media all and (max-width: 767px) {
     .train-traveling__subtitle {
-        top: 119px;
         font-size: 14px;
         line-height: 1.14;
-        max-width: 85%;
     }
 }
