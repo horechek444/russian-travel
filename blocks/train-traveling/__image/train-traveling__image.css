@@ -1,52 +1,25 @@
 .train-traveling__image {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     max-width: 100%;
     width: 100%;
-    min-height: 740px;
-    background-image: url('../../../images/cover-trains.jpg');
+    min-height: 724px;
+    background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../../images/cover-trains.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     object-fit: contain;
-    /* background: #2A2C2F;
-    opacity: 0.8; */
 }
 
-@media all and (max-width: 1152px) {
-    .train-traveling__image {
-        min-height: 690px;
-        width: 100%;
-    }
+.train-traveling__link:hover .train-traveling__image {
+    background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url(../../../images/cover-trains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
 }
 
-@media all and (max-width: 1025px) {
-    .train-traveling__image {
-        max-height: 640px;
-    }
-}
-
-/* .train-traveling__image {
-    max-width: 100%;
-    width: 100%;
-    min-height: 740px;
-    background: #2A2C2F;
-    opacity: 0.8;
-    object-fit: cover;
-} */
-
-/* .train-traveling__link:hover .train-traveling__image {
-    opacity: 0.3;
-}
-
-@media screen and (max-width: 1152px) {
-    .train-traveling__image {
-        min-height: 690px;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 1025px) {
+@media all and (max-width: 1279px) {
     .train-traveling__image {
         min-height: 640px;
     }
@@ -62,4 +35,4 @@
     .train-traveling__image {
         min-height: 200px;
     }
-} */
+}

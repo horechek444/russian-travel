@@ -1,4 +1,5 @@
 .header__toggle_active {
     text-decoration: underline;
+    pointer-events: none;
     cursor: default;
 }

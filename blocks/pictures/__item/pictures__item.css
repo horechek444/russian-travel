@@ -1,23 +1,24 @@
 .pictures__item {
-    margin: 0;
-    padding: 0;
-    max-height: 213px;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    min-height: 213px;
 }
 
 @media screen and (max-width: 1279px) {
     .pictures__item {
-        max-height: 225px;
+        min-height: 225px;
     }
 }
 
 @media all and (max-width: 1023px) {
     .pictures__item {
-        max-height: 264px;
+        min-height: 264px;
     }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 425px) {
     .pictures__item {
-        max-height: 216px;
+        min-height: 216px;
     }
 }

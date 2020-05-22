@@ -5,7 +5,8 @@
     height: 28px;
     font-size: 24px;
     line-height: 1.17;
-    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 @media all and (max-width: 767px) {
