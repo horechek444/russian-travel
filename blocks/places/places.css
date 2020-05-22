@@ -9,7 +9,6 @@
 @import url(./__url-link/places__url-link.css);
 
 .places {
-    display: flex;
     margin: 0 auto;
     padding: 92px 0 0;
 }
