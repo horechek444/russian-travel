@@ -2,7 +2,6 @@
     display: grid;
     max-width: 984px;
     grid-template-columns: 4fr 5fr;
-    grid-template-rows: min-content 1fr;
     grid-gap: 48px 40px;
     grid-template-areas: 
     'title url'
@@ -35,7 +34,6 @@
         'image'
         'paragraph';
         grid-template-columns: 100%;
-        grid-template-rows: min-content;
         grid-row-gap: 32px;
         grid-column-gap: 0;
         padding: 0;

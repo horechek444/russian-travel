@@ -11,16 +11,12 @@
 
 @media all and (max-width: 1023px) {
     .header {
-        display: flex;
-        margin: 0 auto;
         padding: 28px 24px 0;
     }
 }
 
 @media all and (max-width: 767px) {
     .header {
-        display: flex;
-        margin: 0 auto;
         padding: 16px 16px 0;
     }
 }

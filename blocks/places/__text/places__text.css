@@ -17,6 +17,6 @@
 @media all and (max-width: 767px) {
     .places__text {
         max-width: 288px;
-        margin: 0 16px;
+        padding: 0 16px;
     }
 }

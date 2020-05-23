@@ -23,7 +23,7 @@
     }
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 676px) {
     .pictures__list {
         max-width: 288px;
         grid-gap: 12px;
