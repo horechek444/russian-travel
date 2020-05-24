@@ -10,7 +10,8 @@
 
 @media all and (max-width: 1023px) {
     .places__text {
-        max-width: 352px;
+        min-width: 352px;
+        max-width: 440px;
     }
 }
 
