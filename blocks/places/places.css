@@ -9,8 +9,9 @@
 @import url(./__url-link/places__url-link.css);
 
 .places {
+    max-width: 984px;
     margin: 0 auto;
-    padding: 92px 0 0;
+    padding: 92px 148px 0;
 }
 
 @media all and (max-width: 1023px) {
