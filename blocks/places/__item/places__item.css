@@ -1,6 +1,5 @@
 .places__item {
     display: grid;
-    max-width: 984px;
     grid-template-columns: 4.88fr 5.12fr;
     grid-gap: 48px 40px;
     grid-template-areas: 
@@ -12,18 +11,14 @@
 
 @media screen and (max-width: 1279px) {
     .places__item {
-        max-width: 928px;
         grid-gap: 48px 32px;
-        padding: 0 48px;
     }
 }
 
 @media all and (max-width: 1023px) {
     .places__item {
         grid-template-columns: 4.83fr 5fr;
-        max-width: 720px;
         grid-gap: 48px 28px;
-        padding: 0 24px;
     }
 } 
 
