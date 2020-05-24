@@ -1,7 +1,7 @@
 .places__item {
     display: grid;
     max-width: 984px;
-    grid-template-columns: 4fr 5fr;
+    grid-template-columns: 4.88fr 5.12fr;
     grid-gap: 48px 40px;
     grid-template-areas: 
     'title url'

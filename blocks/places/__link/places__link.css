@@ -3,6 +3,7 @@
     line-height: 1.22;
     font-weight: normal;
     color: #ffffff;
+    transition: opacity 0.3s ease-in;
 }
 
 .places__link:hover {

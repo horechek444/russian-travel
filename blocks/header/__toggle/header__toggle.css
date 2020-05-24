@@ -4,6 +4,7 @@
     line-height: 1.17;
     color: #ffffff;
     text-decoration: none;
+    transition: opacity 0.3s ease-in;
 }
 
 @media all and (max-width: 767px) {

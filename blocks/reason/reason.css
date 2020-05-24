@@ -1,10 +1,36 @@
-@import url(./__cover/reason__cover.css);
 @import url(./__title/reason__title.css);
 @import url(./__text/reason__text.css);
 @import url(./__list/reason__list.css);
 @import url(./__item/reason__item.css);
+@import url(./__item/_font/reason__item_font_normal.css);
 
 .reason {
     display: flex;
+    flex-direction: column;
+    max-width: 1132px;
+    padding: 92px 0 0 148px;
     margin: 0 auto;
+    text-align: left;
+}
+
+@media screen and (max-width: 1279px) {
+    .reason {
+        max-width: 976px;
+        padding: 92px 0 0 48px;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .reason {
+        max-width: 720px;
+        padding: 88px 0 0;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .reason {
+        min-width: 288px;
+        padding: 64px 0 0;
+        margin: 0 16px;
+    }
 }

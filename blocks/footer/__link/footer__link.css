@@ -4,6 +4,7 @@
     font-size: 16px;
     line-height: 1.12;
     font-style: normal;
+    transition: opacity 0.3s ease-in;
 }
 
 .footer__item:hover .footer__link {
