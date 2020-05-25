@@ -9,6 +9,5 @@
 @media all and (max-width: 767px) {
     .reason__text {
         min-width: 288px;
-        line-height: 1.63;
     }
 }
