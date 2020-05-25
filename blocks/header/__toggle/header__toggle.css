@@ -7,13 +7,13 @@
     transition: opacity 0.3s ease-in;
 }
 
+.header__toggle:hover {
+    opacity: 0.8;
+}
+
 @media all and (max-width: 767px) {
     .header__toggle {
         font-size: 18px;
         line-height: 1.33;
     }
-}
-
-.header__toggle:hover {
-    opacity: 0.8;
 }
