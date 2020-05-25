@@ -21,9 +21,3 @@
         max-width: 100%;
     }
 }
-
-@media all and (max-width: 767px) {
-    .real-country__image {
-        max-width: 100%;
-    }
-}

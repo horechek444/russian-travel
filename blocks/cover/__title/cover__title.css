@@ -18,7 +18,6 @@
 @media all and (max-width: 620px) {
     .cover__title {
         font-size: 42px;
-        line-height: 1.09;
         max-width: 300px;
     }
 }
@@ -26,7 +25,6 @@
 @media all and (max-width: 470px) {
     .cover__title {
         font-size: 32px;
-        line-height: 1.09;
         max-width: 255px;
     }
 }
